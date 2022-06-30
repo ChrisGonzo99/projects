@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Top nav conatiner-->
+    <div class="nav-container">
+        <div class="box">
+            <img class="Heart-Picture" src="./assets/heart-light.png" alt="HeartPicture">
+            <h1>Pet Shelter</h1>
+            <ul class="nav-links">
+                <li><a href="#">Find a Pet</a></li>
+                <li><a href="#">About</a></li>
+                <li><button id="Donate-Btn" onclick="remove(this)">Donate</button></li>
+            </ul>
+            <div class="nav-text">
+                <p>I'm looking for a...</p>
+                <p>in or near...</p>
+            </div>
+            <form>
+                <label><img class="paw-pic" src="./assets/paw-light.png" alt="paw-pic"></label>
+                <select id="Dropdown" onchange="getSelectValue()">
+                    <option>Any Pet</option>
+                    <option value="You are looking for a Dog">Dogs</option>
+                    <option value="You are looking for a Cat">Cats</option>
+                </select>
+                <label><img class="pin-icon" src="./assets/pin-light.png" alt="pinIcon"></label>
+                <input class="Animals" type="text" name="ZipCode" placeholder="City or Zip Code">
+            </form>
+            <button class="BestFriendBtn">Find my new best friend</button>
+        </div>
+    </div>
+    
+    <!--Main Content-->
+    <div class="Main-Container">
+        <div class="row">
+            <img class="Pet-Picture" src="./assets/pepper.jpg" alt="PictureOfPepper">
+            <div>
+                <h2 class="Pet-Name">Pepper</h2>
+                <p class="Animal-disc">Pepper is a slightly shy grey tabby, but she<br>
+                    really loves showing her human affection.</p>
+            </div>
+            <div>
+                <p class="pettings"><span id="num">3</span> petting(s)</p>
+                <button class="Pet-Btn" onclick="numUp()">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="row">
+            <img class="Pet-Picture" src="./assets/bruce.jpg" alt="PictureOfBruce">
+            <div>
+                <h2 class="Pet-Name">Bruce</h2>
+                <p class="Animal-disc">Bruce is a loyal companion. He loves long walks and cold<br> 
+                    weather.</p>
+            </div>
+            <div>
+                <p class="pettings2"><span id="num2">5</span> petting(s)</p>
+                <button class="Pet-Btn" onclick="numUp2()">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="row">
+            <img class="Pet-Picture" src="./assets/oscar.jpg" alt="PictureOfOscar">
+            <div>
+                <h2 class="Pet-Name">Oscar</h2>
+                <p class="Animal-disc">Oscar is bright, energetic and friendly. He is<br> 
+                    looking for a good home.</p>
+            </div>
+            <div>
+                <p class="pettings"><span id="num3">8</span> petting(s)</p>
+                <button class="Pet-Btn" onclick="numUp3()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

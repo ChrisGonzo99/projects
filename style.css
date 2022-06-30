@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/*Top nav container*/ 
+.nav-container {
+    width: auto;
+    height: 250px;
+    background-color: rgb(29, 161, 161);
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 250px;
+    width: 900px;
+}
+.Heart-Picture {
+    height: 45px;
+    width: 45px;
+    margin-top: 30px;
+    position: absolute;
+    top: 28px;
+}
+h1 {
+    color: whitesmoke;
+    margin-left: 15px;
+    position: absolute;
+    left: 550px;
+    top: 60px;
+}
+.nav-links {
+    position: absolute;
+    left: 1075px;
+    top: 60px;
+}
+li {
+    display: inline;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+#Donate-Btn {
+    background-color: whitesmoke;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 28px;
+    width: 85px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 35px;
+    box-shadow: 3px 3px 3px black;
+}
+.nav-text {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    margin-top: 140px;
+}
+.paw-pic {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+.pin-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.BestFriendBtn {
+    height: 35px;
+    width: 250px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin-left: 635px;
+    margin-top: 13px;
+    box-shadow: 3px 3px 3px black;
+    font-size: large;
+}
+form {
+    display: inline;
+    position: absolute;
+    top: 170px;
+}
+.Animals {
+    height: 28px;
+    width: 195px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+#Dropdown {
+    height: 28px;
+    width: 195px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+h1, .nav-links {
+    display: inline;
+}
+
+
+
+
+
+
+/*Main content*/
+
+.Main-Container {
+    height: 900px;
+    width: 900px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+.row {
+    height: 200px;
+    width: 900px;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.Pet-Picture {
+    height: 170px;
+    width: 170px;
+    float: inline-start;
+    margin-left: 15px;
+}
+.Animal-disc {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Pet-Name {
+    margin-left: 15px;
+}
+.pettings {
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+.pettings2 {
+    margin-left: 180px;
+    margin-bottom: 10px;
+
+}
+.Pet-Btn {
+    background-color: rgb(23, 161, 161);
+    color: whitesmoke;
+    height: 30px;
+    width: 180px;
+    position: absolute;
+    left: 1200px;
+    box-shadow: 3px 3px 3px black;
+    
+}
+
